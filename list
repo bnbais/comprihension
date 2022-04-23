@@ -1,0 +1,28 @@
+LIST Comprehension means you can write your program in a single line.
+ in combinational data type, our focus on result.
+ for example:- 
+ [[1,2,3],[1,2,3],[1,2,3]]
+ write a program to print above list about list using list comprehension
+ 
+ we can write within a single line python code.
+ print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
+ print([[x for x in range(1,4)] for i in range(1,4)])
+ 
+ '''print("==========List comprehension======= ")
+print([[x for x in range(1,4)] for i in range(1,4)])
+ 
+print('=====================================================')'''
+
+
+print('Q1.Take a list have 1 to 10 number and print square of each number using list comprehension')
+print([x**2 for x in range(1,11)])
+
+print('=====================================================')
+print('Q2.Take a list have 1 to 10 number and print qube of each number using list comprehension')
+print([x**3 for x in range(1,11)])
+print('******************************************************')
+print('Q3.Take a list , print even , odd numbers  using list comprehension')
+print([x for x in range(1,10) if x%2==0])
+print([x for x in range(10) if x%2!=0])
+
+
